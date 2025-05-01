@@ -34,7 +34,7 @@ aplanar_lista([1, (2, 3), {'a': 4, 'b': [5, 6]}, [7, [8]]])
 
 A continuación se muestra una captura de pantalla de los resultados de los tests ejecutados:
 
-![Resultados de los Tests](https://imgur.com/a/KdcEcQp)
+![Resultados de los Tests](https://i.imgur.com/IMkBjoO.png)
 
 
 

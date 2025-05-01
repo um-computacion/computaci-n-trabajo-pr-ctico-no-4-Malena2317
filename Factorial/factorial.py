@@ -1,5 +1,7 @@
 
-def factorial_iterativa(n):
+
+def factorial(n): #este esta es la versicion iterativa en ambos casos los test funcionan correctamente
+    
     # Comprobar si n es un número negativo
     if n < 0:
         raise ValueError("El factorial no está definido para números negativos")
@@ -19,20 +21,20 @@ def factorial_iterativa(n):
     
     return resultado
 
-      
+# este esta es la versicion recursiva en ambos casos los test funcionan correctamente 
 
-def factorial_recursiva(n):
-    # si el numero es menor que cero, tirar error
-    if n < 0:
-        raise ValueError("no se puede con negativos")
-
-    # si es decimal, tirar error tambien
-    if type(n) == float:
-        raise ValueError("tiene que ser un numero entero")
-
-    # si es 0, devolver 1
-    if n == 0:
-        return 1
-
-    # si no, usar recursividad
-    return n * factorial(n - 1)
+#def factorial(n):
+#    # si el numero es menor que cero, tirar error
+#    if n < 0:
+#        raise ValueError("no se puede con negativos")
+#
+#    # si es decimal, tirar error tambien
+#    if type(n) == float:
+#        raise ValueError("tiene que ser un numero entero")
+#
+#    # si es 0, devolver 1
+#    if n == 0:
+#        return 1
+#
+#    # si no, usar recursividad
+#    return n * factorial(n - 1)
